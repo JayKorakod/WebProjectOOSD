@@ -1,0 +1,498 @@
+body,html {
+	overflow-x:hidden;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #444444;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+	list-style: disc;
+	font-size: 17px;
+	line-height: 1.59;
+}
+
+a { 
+	/*text-decoration: none;*/
+	color:  #ff90edcc;  
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	margin-top: 0;
+}
+
+h1 {
+	font-size: 38px;
+}
+
+h2 {  
+	font-size: 32px; 
+	line-height: 1.13; 
+}
+
+h3 {  
+	font-size: 26px;  
+}
+
+h4 {  
+	font-size: 22px;  
+}
+
+h5 {  
+	font-size: 20px;  
+}
+
+h6 {  
+	font-size: 18px;  
+}
+
+img {
+	border: none;
+	max-width: 100%;
+}
+/*--------------------*/
+/* แถบเมนูบนสุด */
+/*--------------------*/
+
+#mu-hero {       
+	background-color: #1a1919dc;
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-navbar .mu-logo {
+	color: #fff;
+	font-weight: 600;
+	font-size: 36px;
+}
+
+.mu-logo span{
+	display: inline-block;
+}
+
+.mu-logo img {
+	margin-top: -5px;
+}
+/*--------------------*/
+/* MENU */
+/*--------------------*/
+
+.mu-navbar {
+	padding: 40px 0;
+}
+
+.mu-navbar-nav {
+	display: block;
+	text-align: right;
+	width: 100%;
+}
+
+.mu-navbar-nav li {
+	list-style: none;
+	display: inline-block;
+}
+
+.mu-navbar-nav li a {
+	color: #fefeff;
+	display: block;
+	font-size: 18px;
+	font-weight: 1000;
+	padding: 15px 30px;
+	border-radius: 15px;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+    transition: all 0.5s;
+    font-family: BNK48JABAJA inline;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	color: #fff;
+}
+
+.mu-navbar-nav li.active a,.mu-navbar-nav li a:hover,.mu-navbar-nav li a:focus {
+	background-color: #fc9deccc;
+	color: #f8f8f8;
+}
+
+.mu-navbar-nav .dropdown-menu {
+	left: auto;
+	right: 0;
+}
+
+.mu-navbar-nav li .dropdown-menu a {
+	color: #444;
+	padding: 6px 15px;
+}
+
+.mu-navbar-nav li .dropdown-menu a:hover,.mu-navbar-nav li .dropdown-menu a:focus {
+	color: #1c1d1d;
+}
+
+/*--------------------*/
+/* SLIDER */
+/*--------------------*/
+
+#mu-slider {
+	display: inline;
+	float: left;
+    width: 100%;
+    background-color: #ff90edcc;
+}
+
+.mu-slide {
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+/*--------------------*/
+/* ส่วนซื้อสินค้า */
+/*--------------------*/
+
+#mu-portfolio {
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-portfolio-area {
+	display: inline;
+	float: left;
+	padding: 100px 0;
+	width: 100%;
+}
+
+.mu-portfolio-content{
+	display: inline;
+	float: left;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.mu-portfolio-filter-area{
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.filtr-item {
+	margin-bottom: 0px;
+	padding: 16px;
+	transform-style: unset !important;
+}
+
+.mu-imglink {
+	background-color: transparent;
+}
+
+.filtr-item h4 {
+	font-size: 14px;
+}
+
+.mu-filter-item-content {
+	background-color: #ff90edcc;
+	position: absolute;
+	left: 30px;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	color: #fff;
+	padding-top: 27%;
+	text-align: center;
+	-webkit-transform: scale(0);
+	        transform: scale(0);
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	opacity: 0.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+.filtr-item:hover .mu-filter-item-content {
+	-webkit-transform: scale(0.9);
+	        transform: scale(0.9);
+}
+
+
+/* Filter controls */
+
+.mu-simplefilter {
+	text-align: center;
+}
+
+.mu-simplefilter li {
+	color: #f6fafa;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 6px;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	font-size: 16px;
+	font-weight: 700;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.mu-simplefilter li span {
+	margin-left: 16px;
+}
+
+.mu-simplefilter li:hover,.mu-simplefilter li.active {
+    color: #ff90edcc;
+}
+
+
+/*--------------------*/
+/* หน้าlogin */
+/*--------------------*/
+
+#mu-contact {
+	background-color: #fff;
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-contact-area {
+	display: inline;
+	float: left;
+	text-align: center;
+	padding: 100px 0;
+	width: 100%;
+}
+
+.mu-contact-content {
+	display: inline;
+	float: left;
+	width: 100%;
+	padding: 0 28%;
+}
+
+.mu-contact-form-area {
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-contact-form {
+	text-align: center;
+}
+
+.mu-contact-form .form-group {
+	position: relative;
+}
+
+.mu-contact-form .mu-contact-icon {
+	color:#ff90edcc;
+	font-size: 14px;
+	position: absolute;
+	left: 5px;
+	top: 15px;
+}
+
+.mu-contact-form .form-group input {
+	background: transparent;
+	border-radius: 0;
+	color: #333;
+	font-size: 14px;
+	border: 1px #cccccc;
+	border-style: none none solid none;
+	height: 45px;
+	padding: 0 25px;
+	margin-bottom: 24px;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.mu-contact-form .form-group textarea {
+	background: transparent;
+	border: 1px #cccccc;
+	border-style: none none solid none;
+	border-radius: 0;
+	color: #333;
+	font-size: 14px;
+	padding: 10px;
+	height: 100px;
+	padding: 13px 25px;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.mu-contact-form .form-control:focus {
+	background-color: #fff;
+	border-style: none none solid none;
+    outline: 0;
+    box-shadow: none;    
+} 
+
+.mu-contact-form .form-control::-webkit-input-placeholder {
+	color: #7e7e7e;
+	font-size: 14px;
+}
+
+.mu-contact-form .form-control:-moz-placeholder { /* Firefox 18- */
+	color: #7e7e7e;
+	font-size: 14px;
+}
+
+.mu-contact-form .form-control::-moz-placeholder {  /* Firefox 19+ */
+	color: #7e7e7e;
+	font-size: 14px;
+}
+
+.mu-contact-form .form-control:-ms-input-placeholder {  
+	color: #7e7e7e;
+	font-size: 14px;
+}
+
+.mu-contact-form .button-default::after,
+.mu-contact-form .button-default > span {
+	padding: 12px 40px;  
+}
+
+#form-messages {
+	margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.success {
+	padding: 1em;
+	margin-bottom: 0.75rem;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	color: #468847;
+	background-color: #1a1919dc;
+	border: 1px solid #1a1919dc;
+	-webkit-border-radius: 4px;
+	      border-radius: 4px;
+}
+
+.error {
+	padding: 1em;
+	margin-bottom: 0.75rem;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	color: #b94a48;
+	background-color: #1a1919dc;
+	border: 1px solid rgba(185, 74, 72, 0.3);
+	-webkit-border-radius: 4px;
+	      border-radius: 4px;
+}
+
+/* ========= BUTTON =========*/
+.mu-send-msg-btn {
+	background-color: #1a1919dc;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-align: center;
+	padding: 12px 20px;
+	margin-top: 10px;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	width: 170px;
+	color: #ff90edcc;
+	border-radius: 20px;
+	cursor: pointer;
+    font-family: BNK48JABAJA inline;
+}
+
+
+/*--------------------*/
+/* FOOTER */
+/*--------------------*/
+
+.mu-footer-top {
+	background-color: #1a1919dc;
+	display: inline;
+	float: left;
+	padding: 55px 0;
+	width: 100%;
+}
+
+.mu-single-footer {
+	display: inline;
+	float: left;
+	color: #fff;
+	font-size: 14px;
+	width: 100%;
+}
+
+.mu-footer-logo {
+	margin-bottom: 25px;
+}
+
+.mu-single-footer ul li {
+	border-bottom: 1px solid #ff90edcc;
+	list-style: none;
+	margin-bottom: 10px;
+	padding-bottom: 12px;
+	font-size: 14px;
+}
+
+.mu-single-footer .list-unstyled li.media span {
+	margin-right: 10px;
+}
+
+.mu-single-footer .list-unstyled li.media p {
+	line-height: 1.5;
+	margin-top: -5px;
+	margin-bottom: 4px;
+	font-size: 14px;
+}
+
+.mu-single-footer .list-unstyled li.media a {
+	font-size: 12px;
+}
+
+.mu-footer-bottom {
+	background-color: #ff90edcc;
+	display: inline;
+	padding: 20px 0;
+	float: left;
+	width: 100%;
+}
+
+.mu-footer-bottom-area {
+	display: inline;
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+.mu-social-media a {
+	background-color: #3b5998;
+	border: 1px solid #babcbe;
+	border-radius: 50%;
+	color: #fff;
+	display: inline-block;
+	margin-right: 6px;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out 0s;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+}
+
+.mu-social-media a.mu-twitter {
+	background-color: #1da1f2;
+}
+
+
+.mu-social-media a.mu-youtube {
+	background-color: #cd201f;
+}
+
+
